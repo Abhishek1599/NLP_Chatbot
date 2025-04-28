@@ -1,0 +1,35 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "What's up?","hi","hello","what's up"],
+        "responses": ["Hey there!", "Hello!", "Hi, how can I help you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you", "Goodbye"],
+        "responses": ["Goodbye!", "See you soon!", "Have a great day!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you"],
+        "responses": ["You're welcome!", "Any time!", "No problem!"]
+      },
+      {
+        "tag": "want",
+        "patterns": ["I want to know", "Do you know"],
+        "responses": ["You can search regarding this on Google", "You want deatiled Information?", "No problem!"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Can you help", "I want help"],
+        "responses": ["I can help you in this", "Okay tell me", "What's is the issue"]
+      },
+      {
+        "tag": "scientist",
+        "patterns": ["Name some scientist", "tell me some scientists name"],
+        "responses": ["Nikola Tesla", "Albert Einstein", "Thomas Alfa Edison "]
+      }
+    ]
+  }
+  
